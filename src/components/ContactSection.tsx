@@ -65,6 +65,16 @@ const ContactSection = () => {
                 </div>
               </a>
 
+              <a href="tel:+94750906491" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-card hover:shadow-elevated transition-shadow group">
+                <div className="p-3 rounded-lg bg-primary text-primary-foreground group-hover:scale-110 transition-transform">
+                  <Phone size={18} />
+                </div>
+                <div>
+                  <p className="text-xs text-muted-foreground">Phone</p>
+                  <p className="text-sm font-medium text-primary">+94 750906491 / +94 771764182</p>
+                </div>
+              </a>
+
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-card hover:shadow-elevated transition-shadow group">
                 <div className="p-3 rounded-lg bg-primary text-primary-foreground group-hover:scale-110 transition-transform">
                   <Linkedin size={18} />
