@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, MapPin, Brain, Sparkles, Satellite, Database } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+const profileImg = "https://i.postimg.cc/1X8Mkx91/Gemini-Generated-Image-vcrydavcrydavcry.png";
 
 const stats = [
   { value: "3+", label: "Years Experience", icon: Sparkles },
