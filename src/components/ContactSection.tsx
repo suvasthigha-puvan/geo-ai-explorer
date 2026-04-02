@@ -1,14 +1,33 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, Linkedin, Github, Send } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, Send, Loader2, CheckCircle } from "lucide-react";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
+  const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:suvasthigha@example.com?subject=Portfolio Contact from ${formData.name}&body=${encodeURIComponent(formData.message)}`;
-    window.open(mailtoLink);
+    setSending(true);
+    try {
+      await emailjs.send("service_x6r3fpi", "template_q7yr8b9", {
+        from_name: formData.name,
+        from_email: formData.email,
+        message: formData.message,
+      }, "36w1EbauZKYfaAPw_");
+      setSent(true);
+      setFormData({ name: "", email: "", message: "" });
+      toast({ title: "Message sent!", description: "I'll get back to you soon." });
+      setTimeout(() => setSent(false), 3000);
+    } catch {
+      toast({ title: "Failed to send", description: "Please try again later.", variant: "destructive" });
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
