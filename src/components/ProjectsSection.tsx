@@ -2,35 +2,47 @@ import { motion } from "framer-motion";
 import { ExternalLink, Bot, Truck, Cloud, MessageSquare, TrendingDown } from "lucide-react";
 
 const projects = [
+    {
+        icon: Bot,
+        title: "LLM-Based Automated Geospatial Map Generation",
+        description: "Built a system that uses LLMs to generate maps from natural language prompts, automating data processing, styling, and map creation for quick, user-friendly outputs.",
+        tags: ["LLM", "Python", "GEE"],
+    },
+    {
+        icon: TrendingDown,
+        title: "ML-based ET Downscaling",
+        description: "Machine learning approach for spatial downscaling of evapotranspiration data from coarse to fine resolution.",
+        tags: ["ML", "Geospatial", "Python"],
+    },
+    {
+        icon: MessageSquare,
+        title: "SSEBOP-Model ET Processing QGIS Plugin",
+        description: "Developed a QGIS plugin to estimate evapotranspiration using the SSEBOP model, automating data processing for efficient water resource analysis.",
+        tags: ["QGIS", "Python", "Memory Optimization"],
+    },
+    {
+        icon: Truck,
+        title: "Multi-Agent Delivery Optimization",
+        description: "Multi-agent system for last-mile delivery route optimization using reinforcement learning.",
+        tags: ["Multi-Agent", "RL", "Optimization"],
+    },
+    {
+        icon: Cloud,
+        title: "Ensemble ET Model",
+        description: "Ensemble Evapotranspiration model integrating SEBAL, SSEBop, and TSEB for global hydrological applications.",
+        tags: ["GEE", "Remote Sensing", "Hydrology"],
+    },
+    {
+        icon: MessageSquare,
+        title: "Sentiment Analysis System",
+        description: "NLP-based sentiment classification for mobile phone reviews with deep learning architectures.",
+        tags: ["NLP", "Deep Learning", "Python"],
+    },
   {
     icon: Bot,
     title: "Personalized AI Assistant",
     description: "LLM-powered assistant with context-aware responses and multi-modal interaction capabilities.",
     tags: ["LLM", "Python", "NLP"],
-  },
-  {
-    icon: Truck,
-    title: "Multi-Agent Delivery Optimization",
-    description: "Multi-agent system for last-mile delivery route optimization using reinforcement learning.",
-    tags: ["Multi-Agent", "RL", "Optimization"],
-  },
-  {
-    icon: Cloud,
-    title: "Ensemble ET Model",
-    description: "Ensemble Evapotranspiration model integrating SEBAL, SSEBop, and TSEB for global hydrological applications.",
-    tags: ["GEE", "Remote Sensing", "Hydrology"],
-  },
-  {
-    icon: MessageSquare,
-    title: "Sentiment Analysis System",
-    description: "NLP-based sentiment classification for mobile phone reviews with deep learning architectures.",
-    tags: ["NLP", "Deep Learning", "Python"],
-  },
-  {
-    icon: TrendingDown,
-    title: "ML-based ET Downscaling",
-    description: "Machine learning approach for spatial downscaling of evapotranspiration data from coarse to fine resolution.",
-    tags: ["ML", "Geospatial", "Python"],
   },
 ];
 

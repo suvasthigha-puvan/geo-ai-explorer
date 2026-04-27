@@ -26,11 +26,9 @@ const AboutSection = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I am a Research Consultant and Geospatial Data Scientist with over three years of experience in remote sensing, GIS, and advanced computing. Currently pursuing an M.Sc. in Data Science & AI at Sri Jayewardenepura University, I bring deep expertise in building AI-driven solutions for environmental and water resource management.
-            </p>
+                Passionate and results-oriented Remote Sensing & GIS Analyst with over three years of experience in geospatial analysis, remote sensing, and spatial data science. Skilled in developing automated workflows and advanced geospatial models using Python and machine learning techniques to derive actionable insights from large-scale environmental datasets. Currently expanding expertise in Artificial Intelligence through active involvement in AI-driven research, with a strong focus on integrating intelligent methodologies into geospatial analysis and environmental monitoring.            </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              My work spans from developing ensemble evapotranspiration models for global hydrological applications to designing multi-agent systems for optimization. I love solving complex, real-world problems at the intersection of geospatial science and artificial intelligence.
-            </p>
+                Specializing in land and water resource management, I bring hands-on experience in analyzing complex environmental systems to support sustainable decision-making. I have collaborated with government agencies and international organizations to deliver policy-relevant research, combining technical expertise with a strong understanding of real-world challenges. My work is driven by a commitment to innovation, efficiency, and the application of cutting-edge technologies to address global environmental issues.            </p>
 
             <div className="rounded-xl overflow-hidden shadow-card">
               <img
@@ -82,7 +80,7 @@ const AboutSection = () => {
             <div className="bg-card rounded-xl p-6 shadow-card border border-border">
               <h3 className="font-semibold text-primary mb-3">Core Expertise</h3>
               <div className="flex flex-wrap gap-2">
-                {["Geospatial AI", "Remote Sensing", "ML/Deep Learning", "Multi-Agent Systems", "ET Modeling", "Water Resources", "LLMs", "Data Pipelines"].map((skill) => (
+                {["Geospatial AI", "Remote Sensing", "ML/Deep Learning", "Multi-Agent Systems", "ET Modeling", "Water Resources", "LLMs", "Data Pipelines", "QGIS", "Google Earth Engine", "Google Cloud"].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1.5 text-xs font-medium rounded-full bg-muted text-muted-foreground"

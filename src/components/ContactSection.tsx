@@ -55,13 +55,13 @@ const ContactSection = () => {
             </p>
 
             <div className="space-y-4">
-              <a href="mailto:suvasthigha@example.com" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-card hover:shadow-elevated transition-shadow group">
+              <a href="mailto:suvasthigha@gmail.com" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-card hover:shadow-elevated transition-shadow group">
                 <div className="p-3 rounded-lg bg-primary text-primary-foreground group-hover:scale-110 transition-transform">
                   <Mail size={18} />
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Email</p>
-                  <p className="text-sm font-medium text-primary">suvasthigha@example.com</p>
+                  <p className="text-sm font-medium text-primary">suvasthigha@gmail.com</p>
                 </div>
               </a>
 
@@ -75,7 +75,7 @@ const ContactSection = () => {
                 </div>
               </a>
 
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-card hover:shadow-elevated transition-shadow group">
+              <a href="http://www.linkedin.com/in/suva-puvan" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-card hover:shadow-elevated transition-shadow group">
                 <div className="p-3 rounded-lg bg-primary text-primary-foreground group-hover:scale-110 transition-transform">
                   <Linkedin size={18} />
                 </div>
@@ -85,7 +85,7 @@ const ContactSection = () => {
                 </div>
               </a>
 
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-card hover:shadow-elevated transition-shadow group">
+              <a href="https://github.com/suvasthigha-puvan" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-card hover:shadow-elevated transition-shadow group">
                 <div className="p-3 rounded-lg bg-primary text-primary-foreground group-hover:scale-110 transition-transform">
                   <Github size={18} />
                 </div>

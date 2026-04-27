@@ -78,7 +78,7 @@ const HeroSection = () => {
             >
               <div className="h-px w-10 bg-accent" />
               <p className="text-lg sm:text-xl text-foreground font-semibold tracking-tight">
-                Research Consultant & Geospatial Data Scientist
+                  AI-Driven Geospatial Research Associate
               </p>
             </motion.div>
 
@@ -103,7 +103,7 @@ const HeroSection = () => {
                 className="group inline-flex items-center gap-2.5 px-7 py-3.5 rounded-xl bg-primary text-primary-foreground font-semibold shadow-elevated hover:shadow-none hover:translate-y-0.5 transition-all duration-200"
               >
                 <Brain size={18} className="group-hover:rotate-12 transition-transform" />
-                View Portfolio
+                View Projects
               </a>
               <a
                 href="#contact"
